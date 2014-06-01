@@ -1,3 +1,4 @@
+# encoding: UTF-8
 require 'pathname'
 require 'coveralls'
 Coveralls.wear!

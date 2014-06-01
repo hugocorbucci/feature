@@ -1,3 +1,4 @@
+# encoding: UTF-8
 # Set repository to ActiveRecord
 if FeatureToggle.table_exists?
   repo = Feature::Repository::ActiveRecordRepository.new(FeatureToggle)

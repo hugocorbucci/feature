@@ -1,3 +1,4 @@
+# encoding: UTF-8
 module Feature
   module Repository
     # AcitveRecordRepository for active feature list

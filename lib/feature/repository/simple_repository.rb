@@ -1,3 +1,4 @@
+# encoding: UTF-8
 module Feature
   module Repository
     # SimpleRepository for active feature list

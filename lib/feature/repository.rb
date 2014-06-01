@@ -1,3 +1,4 @@
+# encoding: UTF-8
 module Feature
   # Module for holding feature repositories
   module Repository

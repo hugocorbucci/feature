@@ -1,3 +1,4 @@
+# encoding: UTF-8
 class FeatureToggle < ActiveRecord::Base
   attr_accessible :name, :active
 

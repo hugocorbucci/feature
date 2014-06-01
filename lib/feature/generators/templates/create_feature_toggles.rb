@@ -1,3 +1,4 @@
+# encoding: UTF-8
 class CreateFeatureToggles < ActiveRecord::Migration
   def change
     create_table :feature_toggles do |t|

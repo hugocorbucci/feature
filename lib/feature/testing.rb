@@ -1,3 +1,4 @@
+# encoding: UTF-8
 require 'feature'
 
 # This file provides functionality for testing your code with features
