@@ -1,3 +1,4 @@
+# encoding: UTF-8
 # Feature module provides all methods
 # - to set a feature repository
 # - to check if a feature (represented by a symbol) is active or inactive
@@ -24,6 +25,8 @@ module Feature
   require 'feature/repository'
   # Only load the generator if Rails is defined and Version is greater than 3
   require 'feature/generators/install_generator' if defined?(Rails) and Rails::VERSION::STRING > "3"
+  # Only load active record association extension if the module is defined
+  require 'feature/active_record_association_extension' if defined?(ActiveRecord)
 
   @repository = nil
   @active_features = nil

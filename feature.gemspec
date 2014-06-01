@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.name = "feature"
   s.version = "1.0.0"
 
-  s.authors = ["Markus Gerdes"]
+  s.authors = ["Markus Gerdes", "Hugo Corbucci"]
   s.email = %q{github@mgsnova.de}
 
   s.homepage = %q{http://github.com/mgsnova/feature}
